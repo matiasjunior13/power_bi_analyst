@@ -1,0 +1,48 @@
+[
+  {
+    "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/MySqlFlexibleServer_e053c2f10a5f498b95281515509907d9/operations/612F5DB7CCEE6655",
+    "operationId": "612F5DB7CCEE6655",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-10-18T02:15:17.7982191Z",
+      "duration": "PT6M39.3479384S",
+      "trackingId": "361ef319-550b-47d3-b386-c4862a636d43",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/firewallRules-ab83b1cb10894755bf88272b11a7e02e-0",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "firewallRules-ab83b1cb10894755bf88272b11a7e02e-0"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/MySqlFlexibleServer_e053c2f10a5f498b95281515509907d9/operations/8947AC1DB75C4592",
+    "operationId": "8947AC1DB75C4592",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-10-18T02:13:59.5992368Z",
+      "duration": "PT5M21.1489561S",
+      "trackingId": "b10d146d-14d0-4c00-a863-aaa447012250",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.DBforMySQL/flexibleServers/desafio-projeto-dio-matias",
+        "resourceType": "Microsoft.DBforMySQL/flexibleServers",
+        "resourceName": "desafio-projeto-dio-matias"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/MySqlFlexibleServer_e053c2f10a5f498b95281515509907d9/operations/08585040119690751759",
+    "operationId": "08585040119690751759",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-10-18T02:15:17.9991274Z",
+      "duration": "PT6M39.5488467S",
+      "trackingId": "223b45b5-6a38-4d91-8789-d850ef371284",
+      "statusCode": "OK"
+    }
+  }
+]

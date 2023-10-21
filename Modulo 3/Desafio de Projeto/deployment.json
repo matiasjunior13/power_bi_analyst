@@ -1,0 +1,195 @@
+{
+  "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/MySqlFlexibleServer_e053c2f10a5f498b95281515509907d9",
+  "name": "MySqlFlexibleServer_e053c2f10a5f498b95281515509907d9",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.DBforMySQL/flexibleServers/desafio-projeto-dio-matias",
+    "marketplaceItemId": "Microsoft.MySQLServer",
+    "provisioningHash": "MySqlFlexibleServer"
+  },
+  "properties": {
+    "templateHash": "13406576294524837383",
+    "parameters": {
+      "apiVersion": {
+        "type": "String",
+        "value": "2022-09-30-preview"
+      },
+      "administratorLogin": {
+        "type": "String",
+        "value": "admin_company"
+      },
+      "administratorLoginPassword": {
+        "type": "SecureString"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "serverName": {
+        "type": "String",
+        "value": "desafio-projeto-dio-matias"
+      },
+      "serverEdition": {
+        "type": "String",
+        "value": "Burstable"
+      },
+      "vCores": {
+        "type": "Int",
+        "value": 1
+      },
+      "storageSizeGB": {
+        "type": "Int",
+        "value": 20
+      },
+      "haEnabled": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "availabilityZone": {
+        "type": "String",
+        "value": ""
+      },
+      "standbyAvailabilityZone": {
+        "type": "String",
+        "value": ""
+      },
+      "version": {
+        "type": "String",
+        "value": "8.0.21"
+      },
+      "tags": {
+        "type": "Object",
+        "value": {}
+      },
+      "firewallRules": {
+        "type": "Object",
+        "value": {
+          "rules": [
+            {
+              "name": "AllowAllAzureServicesAndResourcesWithinAzureIps_2023-10-17_23-8-27",
+              "endIPAddress": "0.0.0.0",
+              "startIPAddress": "0.0.0.0"
+            }
+          ]
+        }
+      },
+      "backupRetentionDays": {
+        "type": "Int",
+        "value": 7
+      },
+      "geoRedundantBackup": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "vmName": {
+        "type": "String",
+        "value": "Standard_B1ms"
+      },
+      "storageIops": {
+        "type": "Int",
+        "value": 360
+      },
+      "storageAutogrow": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "autoIoScaling": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "identityData": {
+        "type": "Object",
+        "value": {}
+      },
+      "dataEncryptionData": {
+        "type": "Object",
+        "value": {}
+      },
+      "serverParameters": {
+        "type": "Array",
+        "value": []
+      },
+      "aadEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "aadData": {
+        "type": "Object",
+        "value": {}
+      },
+      "guid": {
+        "type": "String",
+        "value": "ab83b1cb10894755bf88272b11a7e02e"
+      },
+      "network": {
+        "type": "Object",
+        "value": {
+          "publicNetworkAccess": "Enabled"
+        }
+      },
+      "firewallRulesAPIVersion": {
+        "type": "String",
+        "value": "2022-01-01"
+      },
+      "acceleratedLogs": {
+        "type": "String",
+        "value": "Disabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-10-18T02:15:18.0433973Z",
+    "duration": "PT6M40.614249S",
+    "correlationId": "26d31f30-c166-4683-924e-55ae715fb959",
+    "providers": [
+      {
+        "namespace": "Microsoft.DBforMySQL",
+        "resourceTypes": [
+          {
+            "resourceType": "flexibleServers",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.DBforMySQL/flexibleServers/desafio-projeto-dio-matias",
+            "resourceType": "Microsoft.DBforMySQL/flexibleServers",
+            "resourceName": "desafio-projeto-dio-matias"
+          }
+        ],
+        "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.Resources/deployments/firewallRules-ab83b1cb10894755bf88272b11a7e02e-0",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "firewallRules-ab83b1cb10894755bf88272b11a7e02e-0"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.DBforMySQL/flexibleServers/desafio-projeto-dio-matias"
+      },
+      {
+        "id": "/subscriptions/6663af5d-7c6a-49e3-906c-b0db13ed782b/resourceGroups/Teste/providers/Microsoft.DBforMySQL/flexibleServers/desafio-projeto-dio-matias/firewallRules/AllowAllAzureServicesAndResourcesWithinAzureIps_2023-10-17_23-8-27"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
